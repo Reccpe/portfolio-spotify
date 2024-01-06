@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500&display=swap');
+
+body, html {
+    height: 100%;
+    background-image: url("bg2.jpg");
+}
+  
+  * {
+    box-sizing: border-box;
+    scroll-behavior: inherit;
+}
+  
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .vscode{
+    width: 45px;
+  }
+
+  .spoti{
+    margin-top: 25px;
+  }
+  
+  .kartt{
+    width: 120px;
+    height: 120px;
+    border-radius: 9999px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #fff;
+    transition: .3s all;
+  }
